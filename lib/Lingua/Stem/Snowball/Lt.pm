@@ -15,7 +15,7 @@ use vars qw(
     %instance_vars
 );
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 @ISA         = qw( Exporter DynaLoader );
 %EXPORT_TAGS = ( 'all' => [qw( stem )] );
@@ -166,8 +166,8 @@ E<lt>marvin at rectangular dot comE<gt>.  Previously maintained by Fabien
 Potencier E<lt>fabpot at cpan dot orgE<gt>.  
 
 Lithuanian language adaptation (Lingua::Stem::Snowball::Lt) was done by
-Linas Valiukas.  Lithuanian stemmer for Snowball was created by Ž. Medelis,
-M. Petkevičius and T. Krilavičius.
+Linas Valiukas.  Lithuanian stemmer for Snowball was created by Z. Medelis,
+M. Petkevicius and T. Krilavicius.
 
 =head1 COPYRIGHT AND LICENSE
 
@@ -182,7 +182,7 @@ terms and conditions as Perl.
 
 Snowball files and stemmers are covered by the BSD license.
 
-Lithuanian stemmer (by Ž. Medelis, M. Petkevičius, T. Krilavičius) is covered
+Lithuanian stemmer (by Z. Medelis, M. Petkevicius, T. Krilavicius) is covered
 by the Academic Free License (AFL).
 
 =head1 SEE ALSO
